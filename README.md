@@ -45,22 +45,89 @@ Built using **React + Vite**, AshRise Automotives delivers smooth navigation, mo
 ---
 
 ## 📂 Project Structure
-ashrise-automotives
-┣ public
-┣ src
-┃ ┣ components
-┃ ┃ ┣ Navbar
-┃ ┃ ┣ Hero
-┃ ┃ ┣ Section
-┃ ┃ ┣ ScrollShowcase
-┃ ┃ ┣ Footer
-┃ ┣ pages
-┃ ┃ ┣ Home
-┃ ┃ ┣ About
-┃ ┃ ┣ Services
-┃ ┃ ┣ Collections
-┃ ┃ ┣ Contact
-┃ ┣ App.jsx
-┃ ┣ main.jsx
-┣ package.json
-┣ vite.config.js
+
+```bash
+AshRise-Automotives
+│
+├── public
+│   ├── images
+│   │   ├── cars + services + collections images
+│   ├── logo.jpg
+│   └── vite.svg
+│
+├── src
+│   ├── components
+│   │   ├── Navbar.jsx
+│   │   ├── Navbar.css
+│   │   ├── Hero.jsx
+│   │   ├── Hero.css
+│   │   ├── Section1.jsx
+│   │   ├── Section1.css
+│   │   ├── ScrollShowcase.jsx
+│   │   ├── ScrollShowcase.css
+│   │   ├── Footer.jsx
+│   │   └── Footer.css
+│
+│   ├── pages
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Services.jsx
+│   │   ├── Collections.jsx
+│   │   └── Contact.jsx
+│
+│   ├── App.jsx
+│   ├── ScrollToTop.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+
+## 🚀 Run the Project Locally
+
+### 1️⃣ Clone Repo
+```bash
+git clone https://github.com/Shrinidhibijapur/Ashrise-automotives.git
+```
+
+### 2️⃣ Open Folder
+```bash
+cd Ashrise-automotives
+```
+
+### 3️⃣ Install Dependencies
+```bash
+npm install
+```
+### 4️⃣ Start Development Server
+```bash
+npm run dev
+```
+
+---
+
+## 🌍 Future Enhancements
+✔️ Backend Email Integration  
+✔️ Admin Dashboard  
+✔️ Live Booking System  
+✔️ Database Connectivity  
+✔️ Animation Enhancements
+
+---
+
+## 👨‍💻 Author
+**Shrinidhi Bijapur**  
+🚗 Passionate Developer • Automotive Enthusiast • UI Craftsman
+
+---
+
+## 🏁 Conclusion
+AshRise Automotives isn’t just a website —  
+it’s an **experience crafted with precision, luxury, and innovation**, built to showcase the beauty of performance engineering.
+
+---
+
+✨ Driven by Passion • Powered by Precision
