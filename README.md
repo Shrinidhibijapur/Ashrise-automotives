@@ -1,12 +1,66 @@
-# React + Vite
+# AshRise Automotives 🚗🔥
+A premium automotive web experience showcasing luxury cars, engineered with precision, performance, and elegance.  
+Built using **React + Vite**, AshRise Automotives delivers smooth navigation, modern UI, and immersive visuals.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🏎️ Premium Brand Showcasing
+- BMW, Mercedes, Porsche, Audi, Lamborghini
+- High-quality cinematic vehicle images
+- Dedicated Collections page
 
-## Expanding the ESLint configuration
+### 🛠️ Professional Services
+- Performance & Engineering
+- Ceramic Coating & Protection
+- Luxury Craftsmanship
+- Exclusive Maintenance
+- Custom Styling Enhancements
+- Price highlight sections
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎥 Interactive UI Experience
+- Hero Section with premium visuals
+- Vision driven About section
+- Scroll-based showcase section (drag to scroll)
+- Animated dividers & golden theme luxury aesthetics
+
+### 📞 Fully Designed Contact Section
+- Contact form UI
+- Location
+- Email
+- Phone details
+- Professional layout
+
+## 🧑‍💻 Tech Stack
+
+| Technology | Purpose |
+|----------|---------|
+| React | Frontend Framework |
+| Vite | Lightning fast bundler |
+| React Router DOM | Navigation |
+| CSS | Styling |
+| HTML | Structure |
+
+---
+
+## 📂 Project Structure
+ashrise-automotives
+┣ public
+┣ src
+┃ ┣ components
+┃ ┃ ┣ Navbar
+┃ ┃ ┣ Hero
+┃ ┃ ┣ Section
+┃ ┃ ┣ ScrollShowcase
+┃ ┃ ┣ Footer
+┃ ┣ pages
+┃ ┃ ┣ Home
+┃ ┃ ┣ About
+┃ ┃ ┣ Services
+┃ ┃ ┣ Collections
+┃ ┃ ┣ Contact
+┃ ┣ App.jsx
+┃ ┣ main.jsx
+┣ package.json
+┣ vite.config.js
