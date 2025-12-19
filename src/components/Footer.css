@@ -1,0 +1,55 @@
+.footer {
+  width: 100%;
+  background: linear-gradient(to top, #000000, #0a0a0a);
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  border-top: 1px solid rgba(255, 215, 0, 0.25);
+}
+
+/* Brand */
+.footer-brand {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  color: #ffb300; /* Gold */
+  margin-bottom: 12px;
+}
+
+/* Copyright */
+.footer-rights {
+  color: #d1d1d1;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+/* Tagline */
+.footer-tagline {
+  color: #ffcc66;
+  font-size: 14px;
+  letter-spacing: .5px;
+}
+.brand-divider {
+  text-align: center;
+  color: #d4af37; /* Luxury Gold */
+  margin-top: 10px;     /* ↓↓↓ REDUCED GAP HERE */
+  margin-bottom: 30px;  /* Keeps footer close */
+}
+
+.gold-line {
+  width: 80%;
+  height: 1px;
+  background: linear-gradient(to right, transparent, gold, transparent);
+  margin: 5px auto;   /* ↓↓↓ Very tight */
+}
+
+.brands {
+  font-family: "Cinzel", serif;
+  letter-spacing: 3px;
+  margin: 5px 0;      /* ↓↓↓ Very small gap */
+  font-size: 18px;
+}
+
+.brands span {
+  margin: 0 12px;
+  opacity: 0.9;
+}

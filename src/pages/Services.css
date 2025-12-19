@@ -1,0 +1,78 @@
+.services {
+  background: black;
+  color: white;
+  padding: 40px 90px;
+}
+
+.service-title {
+  text-align: center;
+  font-family: "Cinzel", serif;
+  font-size: 42px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.service-box {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+.service-box img {
+  width: 380px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(255,140,0,.25);
+}
+
+.service-box h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+}
+
+.service-box p {
+  font-size: 17px;
+  color: rgb(210,210,210);
+}
+
+/* Gold Divider */
+.gold-divider {
+  width: 85%;
+  height: 1px;
+  background: linear-gradient(to right, transparent, gold, transparent);
+  margin: 15px auto;
+}
+
+/* Responsive */
+@media(max-width: 900px){
+  .service-box{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .service-box img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+.service-price {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 6px 16px;
+  border-left: 2px solid #ffb400;
+  color: #e6b800;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  opacity: 0.95;
+
+  background: linear-gradient(
+    to right,
+    rgba(255, 180, 0, 0.1),
+    rgba(0, 0, 0, 0)
+  );
+
+  border-radius: 4px;
+}

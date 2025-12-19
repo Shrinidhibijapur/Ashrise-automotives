@@ -1,0 +1,92 @@
+.collections {
+  background: #000;
+  color: white;
+  min-height: 100vh;
+  padding: 50px 80px;
+  text-align: center;
+}
+
+/* Main Heading */
+.collect-title {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+}
+
+.collect-sub {
+  color: #cfcfcf;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+
+/* Brand Section */
+.brand-block {
+  margin-bottom: 80px;
+}
+
+.brand-name {
+  font-family: "Cinzel", serif;
+  font-size: 34px;
+  color: orange;
+}
+
+.brand-desc {
+  color: rgb(210,210,210);
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+
+/* Image Grid */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  justify-items: center;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: .3s ease;
+  box-shadow: 0 0 25px rgba(255, 165, 0, 0.15);
+}
+
+.image-grid img:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 45px rgba(255, 165, 0, .35);
+}
+
+
+/* Responsive */
+@media (max-width: 1000px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .collections {
+    padding: 40px 30px;
+  }
+}
+@media (min-width: 1001px) and (max-width: 1400px) {
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .collect-title {
+    font-size: 36px;
+  }
+}
+@media (max-width: 400px) {
+  .image-grid img {
+    height: 200px;
+  }
+}
+@media (min-width: 401px) and (max-width: 600px) {
+  .image-grid img {
+    height: 220px;
+  }
+}

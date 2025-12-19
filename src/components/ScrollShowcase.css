@@ -1,0 +1,70 @@
+/* 🔥 SECTION WRAPPER */
+.scroll-section {
+  background: #000;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: -100px;
+  padding: 20px 0 60px 0;
+}
+
+/* 🔥 TITLE */
+.scroll-title {
+  font-family: "Playfair Display", serif;
+  font-size: 46px;
+  margin-bottom: 25px;
+  color: orange;
+}
+
+.scroll-wrapper {
+  display: flex;
+  gap: 35px;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+
+  padding: 10px 60px;
+  width: 100%;
+  cursor: grab;
+}
+
+/* Hide scrollbar fully */
+.scroll-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.scroll-wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+
+/* 🔥 CARD */
+.scroll-card {
+  min-width: 360px;
+  scroll-snap-align: center;
+  text-align: center;
+}
+
+/* 🔥 IMAGE */
+.scroll-card img {
+  width: 100%;
+  height: 240px;
+  border-radius: 14px;
+  object-fit: cover;
+
+  box-shadow: 0 0 28px rgba(255,140,0,.25);
+  transition: .35s ease;
+}
+
+.scroll-card img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 55px rgba(255,165,0,.7);
+}
+
+/* 🔥 NAME TEXT */
+.scroll-card h2 {
+  margin-top: 10px;
+  font-family: "Cinzel", serif;
+}
