@@ -24,17 +24,27 @@
     margin-right: 00px;
   }
   
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 40px;
-  }
-  
-  .nav-links li {
-    color: white;
-    cursor: pointer;
-    transition: color 0.3s ease;
-  }
+ .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+/* LINK STYLE */
+.nav-links a {
+  color: #ff9900;            /* GOLD COLOR */
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: .3s ease;
+}
+
+/* HOVER EFFECT */
+.nav-links a:hover {
+  color: white;
+  text-shadow: 0 0 10px rgba(255,165,0,.8);
+}
+
   
   .nav-links li:hover {
     color: #f39c12; 

@@ -15,7 +15,7 @@ function App() {
   return (
     <BrowserRouter>
 
-      <ScrollToTop />   {/* 👈 Fixes scrolling issue */}
+      <ScrollToTop />   
 
       <Navbar />
 
