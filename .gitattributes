@@ -1,0 +1,9 @@
+# Normalize all files to LF line endings
+* text eol=lf
+
+# Treat images as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
