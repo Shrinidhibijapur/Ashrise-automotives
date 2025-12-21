@@ -16,17 +16,26 @@
   color: orange;
 }
 
+/* 🔥 SCROLL WRAPPER */
 .scroll-wrapper {
   display: flex;
   gap: 35px;
-
-  overflow-x: auto;
-  overflow-y: hidden;
-  scroll-snap-type: x mandatory;
-
   padding: 10px 60px;
   width: 100%;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+
   cursor: grab;
+  scroll-behavior: smooth;
+
+  /* Remove SNAP completely */
+  scroll-snap-type: none;
+}
+
+/* When dragging */
+.scroll-wrapper:active {
+  cursor: grabbing;
 }
 
 /* Hide scrollbar fully */
@@ -38,19 +47,17 @@
   scrollbar-width: none;
 }
 
-
-
 /* 🔥 CARD */
 .scroll-card {
-  min-width: 360px;
-  scroll-snap-align: center;
+  min-width: 400px;
+  user-select: none; /* prevents text highlighting */
   text-align: center;
 }
 
 /* 🔥 IMAGE */
 .scroll-card img {
   width: 100%;
-  height: 240px;
+  height: 260px;
   border-radius: 14px;
   object-fit: cover;
 
@@ -59,7 +66,7 @@
 }
 
 .scroll-card img:hover {
-  transform: scale(1.05);
+  transform: scale(1.06);
   box-shadow: 0 0 55px rgba(255,165,0,.7);
 }
 
