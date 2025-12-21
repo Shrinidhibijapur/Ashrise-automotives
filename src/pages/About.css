@@ -1,8 +1,8 @@
 .about {
   background: #000;
   color: white;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
 
 /******** HERO ********/
@@ -68,7 +68,7 @@
   align-items: center;
   gap: 10px;
   font-size: 19px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .point span {
@@ -77,11 +77,11 @@
 
 /******** STATS ********/
 .about-stats {
-  margin-top: 20px;       /* just small spacing */
+  margin-top: 10px;       /* just small spacing */
   display: flex;
   justify-content: center;
   gap: 60px;
-  padding: 20px 0 20px 0; /* equal space top-bottom */
+  padding: 10px 0 10px 0; /* equal space top-bottom */
 }
 
 .stat-box {
@@ -95,7 +95,7 @@
 
 
 .stat-box h2 {
-  font-size: 38px;
+  font-size: 40px;
   color: orange;
 }
 
