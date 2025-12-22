@@ -1,16 +1,18 @@
 import "./Section1.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Section1() {
+
+  const navigate = useNavigate();
+
   return (
     <section className="section1">
       <div className="section1-wrapper">
 
-        {/* LEFT IMAGE */}
         <div className="section1-image">
           <img src="/images/section-car.png" alt="Luxury Car" />
         </div>
 
-        {/* RIGHT TEXT */}
         <div className="section1-content">
           <h2 className="subtitle">Our Vision</h2>
 
@@ -29,7 +31,12 @@ export default function Section1() {
             our mission is to deliver excellence, thrill and identity in every drive.
           </p>
 
-          <button className="explore-btn">Explore Collections</button>
+          <button
+            className="explore-btn"
+            onClick={() => navigate("/collections")}
+          >
+            Explore Collections
+          </button>
         </div>
 
       </div>
