@@ -10,7 +10,7 @@ export default function Navbar() {
 
       <h1 className="logo">AshRise Automotives</h1>
 
-      {}
+      {/* HAMBURGER ICON */}
       <div className={`hamburger ${open ? "active" : ""}`}
            onClick={() => setOpen(!open)}>
         <span></span>
@@ -18,7 +18,7 @@ export default function Navbar() {
         <span></span>
       </div>
 
-      {}
+      {/* NAV LINKS */}
       <ul className={`nav-links ${open ? "show" : ""}`}>
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
