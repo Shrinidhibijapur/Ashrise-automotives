@@ -14,7 +14,7 @@
 
   background: rgba(0, 0, 0, 0.45);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255,255,255,0.15);      /* smooth glass effect */
+  border-bottom: 1px solid rgba(255,255,255,0.15);      
 }
 
   .logo {
@@ -30,16 +30,14 @@
   gap: 40px;
 }
 
-/* LINK STYLE */
 .nav-links a {
-  color: #ff9900;            /* GOLD COLOR */
+  color: #ff9900;            
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
   transition: .3s ease;
 }
 
-/* HOVER EFFECT */
 .nav-links a:hover {
   color: white;
   text-shadow: 0 0 10px rgba(255,165,0,.8);
@@ -65,4 +63,103 @@
     background: white;
     color: black;
   }
-  
+
+@media (max-width: 1000px) {
+  .navbar {
+    height: 75px;
+    padding: 0 35px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .nav-links {
+    gap: 25px;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+  }
+
+  .nav-btn {
+    padding: 8px 18px;
+  }
+}
+
+.hamburger {
+  display: none;
+  width: 35px;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 7px;
+  z-index: 1200;
+}
+
+.hamburger span {
+  display: block;
+  height: 3px;
+  background: white;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translateY(8px);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-8px);
+}
+
+
+@media (max-width: 768px) {
+
+  .hamburger {
+    display: flex;
+  }
+
+
+  .navbar {
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+
+  .logo {
+    font-size: 18px;
+    color: #ffa500;
+    z-index: 1200;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.95);
+    backdrop-filter: blur(10px);
+
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 25px 0;
+
+    transform: translateY(-150%);
+    transition: 0.4s ease;
+  }
+
+
+  .nav-links.show {
+    transform: translateY(0);
+  }
+
+  .nav-links li a {
+    font-size: 18px;
+    color: #ffa500;
+  }
+}

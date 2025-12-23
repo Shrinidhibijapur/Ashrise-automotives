@@ -31,12 +31,11 @@ export default function ScrollShowcase() {
     e.preventDefault();
     const x = e.pageX - slider.current.offsetLeft;
 
-    // 🔥 Smooth + Slower controlled scroll
+    
     const walk = (x - startX) * 0.4;
     slider.current.scrollLeft = scrollLeft - walk;
   };
 
-  // 🔥 Smooth wheel scrolling
   const handleWheel = (e) => {
     if (!slider.current) return;
     e.preventDefault();
@@ -58,7 +57,7 @@ export default function ScrollShowcase() {
         onWheel={handleWheel}
       >
 
-        {/* Existing Cars */}
+        {}
         <div className="scroll-card">
           <img src="/images/bmw1.jpg" />
           <h2>BMW Power</h2>
@@ -109,7 +108,7 @@ export default function ScrollShowcase() {
           <h2>Aston Martin Royal</h2>
         </div>
 
-        {/* 🔥 Added 5 More Supercars */}
+        {}
         <div className="scroll-card">
           <img src="/images/bugatti.webp" />
           <h2>Bugatti Supremacy</h2>

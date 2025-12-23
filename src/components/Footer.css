@@ -7,22 +7,20 @@
   border-top: 1px solid rgba(255, 215, 0, 0.25);
 }
 
-/* Brand */
+
 .footer-brand {
   font-family: "Playfair Display", serif;
   font-size: 32px;
-  color: #ffb300; /* Gold */
+  color: #ffb300; 
   margin-bottom: 12px;
 }
 
-/* Copyright */
 .footer-rights {
   color: #d1d1d1;
   font-size: 15px;
   margin-bottom: 6px;
 }
 
-/* Tagline */
 .footer-tagline {
   color: #ffcc66;
   font-size: 14px;
@@ -30,22 +28,21 @@
 }
 .brand-divider {
   text-align: center;
-  color: #d4af37; /* Luxury Gold */
-  margin-top: 10px;     /* ↓↓↓ REDUCED GAP HERE */
-  margin-bottom: 30px;  /* Keeps footer close */
+  color: #d4af37; 
+  margin-top: 10px;    
+  margin-bottom: 30px;  
 }
 
 .gold-line {
   width: 80%;
   height: 1px;
   background: linear-gradient(to right, transparent, gold, transparent);
-  margin: 5px auto;   /* ↓↓↓ Very tight */
-}
+  margin: 5px auto;  }
 
 .brands {
   font-family: "Cinzel", serif;
   letter-spacing: 3px;
-  margin: 5px 0;      /* ↓↓↓ Very small gap */
+  margin: 5px 0;     
   font-size: 18px;
 }
 

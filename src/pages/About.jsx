@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="about">
       
-      {/* TOP TITLE */}
+      {}
       <section className="about-hero">
         <h2 className="about-title">About Phoenix Automotives</h2>
         <p className="about-sub">
@@ -12,7 +12,7 @@ export default function About() {
         </p>
       </section>
 
-      {/* MAIN ABOUT SECTION */}
+      {}
       <section className="about-content">
 
         <div className="about-left">
@@ -43,7 +43,7 @@ export default function About() {
 
       </section>
 
-      {/* TRUST / STATS */}
+      {}
       <section className="about-stats">
 
         <div className="stat-box">

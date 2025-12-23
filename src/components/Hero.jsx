@@ -40,14 +40,21 @@ const Hero = () => {
 
       <div className="hero-content">
         <h1>Driven by Power</h1>
-        <p>
+
+        {}
+        <p className="hero-text-desktop">
           Experience the thrill of engineering perfection.
           From aggressive design to breathtaking performance,
           these machines aren’t just vehicles — they’re emotion on wheels.
           Precision, power and passion combined into one incredible ride.
-          Step closer… the road is waiting.        </p>
-      </div>
+          Step closer… the road is waiting.
+        </p>
 
+        {}
+        <p className="hero-text-mobile">
+          Power    Precision    Emotion 
+        </p>
+      </div>
 
       <div
         className="flash-overlay"
