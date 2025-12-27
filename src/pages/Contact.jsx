@@ -21,7 +21,7 @@ export default function Contact() {
           <div className="contact-info">
             <p>📍 AshRise Automotives, India</p>
             <p>📞 +91 84858 62732</p>
-            <p>✉️ ash123@gmail.com</p>
+            <p>✉️ ashrise3435@gmail.com</p>
           </div>
         </div>
 
