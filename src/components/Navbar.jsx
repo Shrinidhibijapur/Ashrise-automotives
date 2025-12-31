@@ -26,7 +26,7 @@ export default function Navbar() {
 <li><Link to="/services">Services</Link></li>
 <li><Link to="/collections">Collections</Link></li>
 <li><Link to="/contact">Contact</Link></li>
-{/* <li><Link to="/drag">Drag Feature</Link></li> */}
+{/* <li><Link to="/cart">Cart</Link></li> */}
 
       </ul>
 

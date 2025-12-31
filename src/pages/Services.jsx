@@ -12,7 +12,7 @@ export default function Services() {
         <div>
           <h2>Premium Car Showcasing</h2>
           <p>Stunning high-definition visuals and cinematic presentation to make every machine unforgettable.</p>
-           <p className="service-price">Pricing starts from ₹9,999</p>
+          <p className="service-price">Pricing starts from ₹9,999</p> 
         </div>
       </div>
 

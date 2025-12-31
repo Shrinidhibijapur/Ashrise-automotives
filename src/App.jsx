@@ -8,7 +8,7 @@ import Collections from "./pages/Collections";
 import Contact from "./pages/Contact";
 import CarDetails from "./pages/CarDetails";
 import Footer from "./components/Footer";
-import Drag from "./pages/Drag";  
+// import Drag from "./pages/Cart";  
 import ScrollToTop from "./ScrollToTop";
 
 function App() {
@@ -26,7 +26,6 @@ function App() {
         <Route path="/collections" element={<Collections />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/car/:name" element={<CarDetails />} />
-        <Route path="/drag" element = {<Drag />} />
       </Routes>
 
       <Footer />

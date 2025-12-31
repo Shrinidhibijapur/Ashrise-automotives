@@ -46,7 +46,7 @@ export default function Contact() {
           <input type="email" name="email" placeholder="Your Email" required />
           <input type="text" name="subject" placeholder="Subject" />
 
-          <textarea name="message" placeholder="Feedback Section!!!" rows="6"></textarea>
+          <textarea name="message" placeholder="Your Message !!!" rows="6"></textarea>
 
           <button type="submit">Send Message</button>
         </form>
