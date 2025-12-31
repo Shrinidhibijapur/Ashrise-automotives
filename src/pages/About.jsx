@@ -1,10 +1,14 @@
+import { useState } from "react";
 import "./About.css";
 
 export default function About() {
+
+  const [showBox, setShowBox] = useState(false);
+
   return (
     <div className="about">
       
-      {}
+      {/* HERO */}
       <section className="about-hero">
         <h2 className="about-title">About Phoenix Automotives</h2>
         <p className="about-sub">
@@ -12,7 +16,7 @@ export default function About() {
         </p>
       </section>
 
-      {}
+      {/* MAIN CONTENT */}
       <section className="about-content">
 
         <div className="about-left">
@@ -23,7 +27,7 @@ export default function About() {
           <h3 className="about-heading">Redefining Luxury & Performance</h3>
 
           <p className="about-text">
-            Phoenix Automotives is built for those who believe cars are more than machines. 
+            Ashrise Automotives is built for those who believe cars are more than machines. 
             Every automobile we showcase represents power, craftsmanship, innovation, 
             and identity.
           </p>
@@ -39,11 +43,40 @@ export default function About() {
             <div className="point"><span>⚙️</span> Advanced Innovation</div>
             <div className="point"><span>🏆</span> Luxury Craftsmanship</div>
           </div>
+
+          {}
+          <button 
+            onClick={() => setShowBox(true)}
+            style={{
+              marginTop: "20px",
+              padding: "10px 18px",
+              borderRadius: "8px",
+              border: "2px solid orange",
+              background: "transparent",
+              color: "orange",
+            }}
+          >
+            Show Special Message
+          </button>
+
+          {}
+          {showBox && (
+            <div 
+              style={{
+                marginTop: "15px",
+                padding: "12px",
+              }}
+            >
+               Welcome to AshRise Automotives  <br />
+              This hidden section is now visible 
+            </div>
+          )}
+
         </div>
 
       </section>
 
-      {}
+      {/* STATS */}
       <section className="about-stats">
 
         <div className="stat-box">

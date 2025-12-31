@@ -24,6 +24,7 @@ Built using **React + Vite**, AshRise Automotives delivers smooth navigation, mo
 - Vision driven About section
 - Scroll-based showcase section (drag to scroll)
 - Animated dividers & golden theme luxury aesthetics
+- Added One Hidden Button Inside About Section
 
 ### 📞 Fully Designed Contact Section
 - Contact form UI
