@@ -44,34 +44,6 @@ export default function About() {
             <div className="point"><span>🏆</span> Luxury Craftsmanship</div>
           </div>
 
-          {}
-          <button 
-            onClick={() => setShowBox(true)}
-            style={{
-              marginTop: "20px",
-              padding: "10px 18px",
-              borderRadius: "8px",
-              border: "2px solid orange",
-              background: "transparent",
-              color: "orange",
-            }}
-          >
-            Show Special Message
-          </button>
-
-          {}
-          {showBox && (
-            <div 
-              style={{
-                marginTop: "15px",
-                padding: "12px",
-              }}
-            >
-               Welcome to AshRise Automotives  <br />
-              This hidden section is now visible 
-            </div>
-          )}
-
         </div>
 
       </section>
