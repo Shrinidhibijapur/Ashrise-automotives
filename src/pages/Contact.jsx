@@ -44,7 +44,7 @@ export default function Contact() {
 
           <input type="text" name="name" placeholder="Your Name" required />
           <input type="email" name="email" placeholder="Your Email" required />
-          <input type="text" name="subject" placeholder="Subject" />
+          <input type="number" name="subject" placeholder="Total Amount" />
 
           <textarea name="message" placeholder="Your Message !!!" rows="6"></textarea>
 
