@@ -26,41 +26,30 @@ export default function Contact() {
         </div>
 
         {/* RIGHT */}
-        <form
-  className="contact-form"
-  name="contact-v2"
-  method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
-  action="/"
->
-  <input type="hidden" name="form-name" value="contact-v2" />
+        <form 
+          className="contact-form"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+          action = "/"
+        >
+          {/* Required hidden field */}
+          <input type="hidden" name="form-name" value="contact" />
 
-  <p className="hidden">
-    <label>
-      Don’t fill this: <input name="bot-field" />
-    </label>
-  </p>
+          {/* Honeypot (spam protection) */}
+          <p className="hidden">
+            <label>Don’t fill this: <input name="bot-field" /></label>
+          </p>
 
-  <input type="text" name="name" placeholder="Your Name" required />
-  <input type="email" name="email" placeholder="Your Email" required />
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="number" name="subject" placeholder="Total Amount" />
 
-  <input
-    type="number"
-    name="totalamount"
-    placeholder="Total Amount"
-    required
-  />
+          <textarea name="message" placeholder="Your Message !!!" rows="6"></textarea>
 
-  <textarea
-    name="message"
-    placeholder="Your Message !!!"
-    rows="6"
-  ></textarea>
-
-  <button type="submit">Send Message</button>
-</form>
-
+          <button type="submit">Send Message</button>
+        </form>
 
       </div>
     </div>
